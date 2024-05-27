@@ -1,0 +1,34 @@
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.navbar-option {
+    display: flex;
+   
+}
+.n-link {
+    color: #2a5922;
+    margin: 10px;
+}
+.btn-navbar {
+    background-color: #4dac3b;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    outline: none;
+}
+.btn-navbar:hover {
+    background-color: #3c8d2c;
+    border: none;
+    outline: none;
+}
+.btn-navbar:active {
+    background-color: #377c2a;
+    border: none;
+}
+.btn-navbar:focus {
+    outline: none; /* Agregado */
+}

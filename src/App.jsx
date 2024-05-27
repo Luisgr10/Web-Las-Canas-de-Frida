@@ -3,14 +3,14 @@ import { Home } from './Page/home';
 import { ContactUs } from './Page/contactUs';
 import { Services } from './Page/services';
 import { Blog } from './Page/blog';
-import { Navbar } from 'react-bootstrap';
+import { NavBar } from './components/navbar';
 
 function App() {
   
 
   return (
     <Router>
-      < Navbar/>
+      < NavBar/>
      <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contactanos" element={<ContactUs />} />
