@@ -1,3 +1,6 @@
+.navbar{
+    background-color: #a2df96;
+}
 .logo {
     width: 150px;
     height: 50px;
@@ -8,8 +11,16 @@
    
 }
 .n-link {
-    color: #2a5922;
+    color: #4dac3b;
     margin: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: inherit;
+    text-decoration: none;
+}
+.n-link:hover {
+    color: #3c8d2c;
+    text-decoration: none;
 }
 .btn-navbar {
     background-color: #4dac3b;
