@@ -1,6 +1,7 @@
 import "../style/home.css";
 import Logo from "../assets/image/Logo.png";
 import Perfil from '../assets/image/Alberto.png'
+import { Slider } from "../components/slider";
 
 export const Home = () => {
   return (
@@ -34,12 +35,8 @@ export const Home = () => {
           </div>
         </div>
         <div className="row">
-          <div className="perfil-01 col-6 mt-5">
-          <img
-              src={Perfil}
-              className="img-perfil"
-              alt="Imagen local"
-            />
+          <div className=" col-6 mt-5">
+          < Slider />
           </div>
           <div className=" perfil-02 col-6">
            <h1>Conocenos</h1>
@@ -63,6 +60,7 @@ export const Home = () => {
           </a>
           </div>
         </div>
+       
       </div>
    
   );
