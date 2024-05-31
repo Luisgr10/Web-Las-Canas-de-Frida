@@ -36,9 +36,9 @@ export const Home = () => {
         </div>
         <div className="row">
           <div className=" col-6 mt-5">
-          < Slider />
+         <Slider/>
           </div>
-          <div className=" perfil-02 col-6">
+          <div className=" perfil-02 mt-5 col-6">
            <h1>Conocenos</h1>
           <p> Las Canas de Frida, una peluquería orgánica que nace de un sueño: 
               ofrecer un espacio donde cada clienta es tratada con cariño y dedicación. 
