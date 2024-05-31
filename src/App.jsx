@@ -4,6 +4,7 @@ import { ContactUs } from './Page/contactUs';
 import { Services } from './Page/services';
 import { Blog } from './Page/blog';
 import { NavBar } from './components/navbar';
+import { Footer } from './components/footer';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
           <Route path="/servicios" element={<Services />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
+        <Footer/>
   </Router>
   )
 }

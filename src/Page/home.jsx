@@ -78,7 +78,7 @@ export const Home = () => {
         <div className="col-12">
           <Cards />
         </div>
+        </div>
       </div>
-    </div>
   );
 };
