@@ -1,7 +1,4 @@
 .container {  
-    width: 900px;
-    height: 700px;
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;

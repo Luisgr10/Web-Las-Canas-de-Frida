@@ -33,14 +33,10 @@ export const Footer = () => {
           </div>
         </div>
         <div className="col-4 ">
-          <div className="site-map">
-            <a href="#servicios">Servicios</a> |{" "}
-            <a href="#contacto">Contáctanos</a> | <a href="#blog">Blog</a>
-            <div className="policies">
-              <a href="#privacidad">Política de privacidad</a> |{" "}
-              <a href="#cookies">Política de cookies</a> |{" "}
-              <a href="#legal">Aviso legal</a>
-            </div>
+          <div className="site-map"> <br/>
+            <a href="#servicios">Servicios</a>  
+            <a href="#contacto">Contáctanos</a>  
+            <a href="#blog">Blog</a>
           </div>
         </div>
         <div className="col-4">
@@ -56,8 +52,14 @@ export const Footer = () => {
           </a>
       </div>
         </div>
+      <div className="legal">
+      <a href="#privacidad">Política de privacidad</a> 
+              <a href="#cookies">Cookies</a> 
+              <a href="#legal">Aviso legal</a>
       </div>
-      <div className="creator container">Creado por Luisgr</div>
+      <div className="creator">
+        <h6>Creado por Luisgr</h6></div>
+      </div>
     </footer>
   );
 };

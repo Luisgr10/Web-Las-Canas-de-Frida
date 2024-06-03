@@ -10,9 +10,9 @@
     display: flex;
    
 }
-.n-link {
-    color: #4dac3b;
-    margin: 10px;
+.n-link  {
+    color: #4dac3b !important;
+    margin: 10px 15px 10px 0px;
     font-weight: 500;
     font-size: 18px;
     color: inherit;

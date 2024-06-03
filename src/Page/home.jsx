@@ -6,7 +6,7 @@ import { Cards } from "../components/cards";
 
 export const Home = () => {
   return (
-    <div className="container-fluid p-0">
+    <div className="container-fluid">
       <div className="row">
         <div className="landing-01 col-6">
           <img
@@ -34,7 +34,7 @@ export const Home = () => {
             </button>
           </a>
         </div>
-        <div className="landing col-6">
+        <div className="landing col-6 p-0">
           <img
             src="https://d375139ucebi94.cloudfront.net/region2/es/40058/biz_photo/ed4f11097acb4662b2dbe6defc00dd-peluqueria-organica-las-canas--biz-photo-b70eb0719dbe475396cdd6a9e3c76f-booksy.jpeg?size=640x427"
             className="img-landing"
@@ -46,10 +46,9 @@ export const Home = () => {
         <div className=" col-6 mt-5">
           <Slider />
         </div>
-        <div className=" perfil-02 mt-5 col-6">
+        <div className=" perfil-02 col-6">
           <h1>Conocenos</h1>
           <p>
-            {" "}
             Las Canas de Frida, una peluquería orgánica que nace de un sueño:
             ofrecer un espacio donde cada clienta es tratada con cariño y
             dedicación. Nuestro enfoque se centra en el uso de productos
@@ -75,8 +74,11 @@ export const Home = () => {
         </div>
       </div>
       <div className="row">
+        <div className="col-12 d-flex justify-content-center">
+          <h1>Opiniones</h1>
+        </div>
         <div className="col-12">
-          <Cards />
+         <Cards/>
         </div>
         </div>
       </div>
