@@ -19,7 +19,10 @@ export const NavBar = () => {
           <a className="n-link" href="/blog">
             Blog
           </a>
-          <a
+         
+        </div>
+        <div className="btn">
+        <a
             href="https://booksy.com/es-es/40058_peluqueria-organica-las-canas-de-frida_peluqueria_69556_las-palmas-de-gran-canaria?do=invite&_branch_match_id=1323659425554383576&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVT8sw9IgK9S5JrUwCAB%2Bqw24iAAAA"
             target="_blank"
             rel="noopener noreferrer"
