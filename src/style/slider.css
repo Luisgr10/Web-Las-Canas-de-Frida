@@ -1,29 +1,23 @@
-.container {  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 5px 5px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "area-1 area-1 area-2 area-2"
-      "area-1 area-1 area-3 area-4"
+.mySwiper-i {
+    width: 100%;
+    height: 70%; /* Puedes ajustar la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .area-1 { grid-area: area-1; }
-  
-  .area-2 { grid-area: area-2; }
-  
-  .area-3 { grid-area: area-3; }
-  
-  .area-4 { grid-area: area-4; }
-  
-
-  .container img {
-    display: block;
+  .mySwiper-i img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     object-position: center;
-}
+    object-fit: cover; 
+  }
+  
+  .swiper-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
   

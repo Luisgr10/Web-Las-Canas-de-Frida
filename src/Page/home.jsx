@@ -3,6 +3,7 @@ import Logo from "../assets/image/Logo.png";
 import peluqueria from '../assets/image/peluqueria1.jpg'
 import { ImgBox } from "../components/imgBox";
 import { Opinions} from "../components/swiper";
+import { Slider } from "../components/slider";
 
 export const Home = () => {
   return (
@@ -17,12 +18,7 @@ export const Home = () => {
           <p>
             {" "}
             ¡Bienvenido a <strong>Las Canas de Frida</strong>, donde el cuidado
-            del cabello se encuentra con la conciencia ambiental! Sumérgete en
-            una experiencia única, donde no solo te mimamos con los tratamientos
-            capilares más exclusivos, sino que también te invitamos a unirte a
-            nuestro compromiso con el medio ambiente y la salud. Reserva ahora y
-            descubre cómo podemos transformar tu cabello mientras cuidamos
-            nuestro planeta.
+            del cabello se encuentra con la conciencia ambiental! 
           </p>
           <a
             href="https://booksy.com/es-es/40058_peluqueria-organica-las-canas-de-frida_peluqueria_69556_las-palmas-de-gran-canaria?do=invite&_branch_match_id=1323659425554383576&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVT8sw9IgK9S5JrUwCAB%2Bqw24iAAAA"
@@ -34,12 +30,8 @@ export const Home = () => {
             </button>
           </a>
         </div>
-        <div className="landing col-6 p-0">
-          <img
-            src={peluqueria}
-            className="img-landing"
-            alt="Imagen local"
-          />
+        <div className="landing col-6 ">
+          <Slider/>
         </div>
       </div>
       <div className="row">

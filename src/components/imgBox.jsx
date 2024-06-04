@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../style/slider.css'
+import '../style/imgBox.css'
 import alberto from '../assets/image/Alberto.png'
 import home1 from '../assets/image/home1.jpg'
 import home2 from '../assets/image/home7.jpg'
