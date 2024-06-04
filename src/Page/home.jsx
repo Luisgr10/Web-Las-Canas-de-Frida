@@ -1,8 +1,8 @@
 import "../style/home.css";
 import Logo from "../assets/image/Logo.png";
-import Perfil from "../assets/image/Alberto.png";
-import { Slider } from "../components/slider";
-import { Cards } from "../components/cards";
+import peluqueria from '../assets/image/peluqueria1.jpg'
+import { ImgBox } from "../components/imgBox";
+import { Opinions} from "../components/swiper";
 
 export const Home = () => {
   return (
@@ -36,7 +36,7 @@ export const Home = () => {
         </div>
         <div className="landing col-6 p-0">
           <img
-            src="https://d375139ucebi94.cloudfront.net/region2/es/40058/biz_photo/ed4f11097acb4662b2dbe6defc00dd-peluqueria-organica-las-canas--biz-photo-b70eb0719dbe475396cdd6a9e3c76f-booksy.jpeg?size=640x427"
+            src={peluqueria}
             className="img-landing"
             alt="Imagen local"
           />
@@ -44,7 +44,7 @@ export const Home = () => {
       </div>
       <div className="row">
         <div className=" col-6 mt-5">
-          <Slider />
+          <ImgBox />
         </div>
         <div className=" perfil-02 col-6">
           <h1>Conocenos</h1>
@@ -74,11 +74,12 @@ export const Home = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-12 d-flex justify-content-center">
-          <h1>Opiniones</h1>
+        <div className="col-12 d-flex justify-content-center flex-column align-items-center mt-5 resumen">
+          <h3>Opiniones que hablan por sí solas</h3>
+          <a href="https://g.co/kgs/JRb4kc1">4,9/5 Resumen de reseñas de Google </a>
         </div>
-        <div className="col-12">
-         <Cards/>
+        <div className="col-12 mb-5">
+         <Opinions/>
         </div>
         </div>
       </div>
