@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 600px;
     background-color: #f4fbf2;
     padding: 0;
   }
@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  height: 800px;
+  height: 600px;
   background-color: #f4fbf2;
 }
 .landing-01 p {

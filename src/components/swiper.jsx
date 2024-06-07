@@ -45,23 +45,23 @@ export const Opinions = () => {
               </p>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <span>Hace un mes</span>
               <p className="card-text">
@@ -80,23 +80,23 @@ export const Opinions = () => {
               </p>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <span>Hace 2 meses</span>
               <p className="card-text">
@@ -117,23 +117,23 @@ export const Opinions = () => {
               </p>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <span>Hace 3 meses</span>
               <p className="card-text">
@@ -153,23 +153,23 @@ export const Opinions = () => {
               </p>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <span>Hace 3 meses</span>
               <p className="card-text">
@@ -190,23 +190,23 @@ export const Opinions = () => {
               </p>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <span>Hace un año</span>
               <p className="card-text">
@@ -228,23 +228,23 @@ export const Opinions = () => {
               </p>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <i
                 className="fa-solid fa-star fa-sm"
-                style={{ color: "#17b271" }}
+                style={{ color: "yellow" }}
               ></i>
               <span>Hace un año</span>
               <p className="card-text">

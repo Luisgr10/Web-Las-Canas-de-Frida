@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #a2df96;
+    background-color: #ABB56D;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -19,7 +19,7 @@
   .legal a {
     font-size: 12px;
     text-decoration: none;
-    color: #377c2a;
+    color: white;
     margin-right: 15px;
   }
   .social-media {
@@ -32,18 +32,18 @@
   .social-media i {
     margin-top: 10px;
    font-size: 20px;
-   color: #377c2a;
+   color: white;
   }
  
   .site-map a {
     text-decoration: none;
-    color: #377c2a;
+    color: white;
     margin-right: 15px;
     font-size: 20px;
   }
 
   .contact-info {
-    color: #377c2a;
+    color: white;
     padding: 10px;
     text-align: center;
     margin-top: 20px;

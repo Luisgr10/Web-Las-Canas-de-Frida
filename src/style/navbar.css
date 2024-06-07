@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #a2df96;
+    background-color: #ABB56D;
     
 }
 .logo {
@@ -12,7 +12,7 @@
    
 }
 .n-link  {
-    color: #4dac3b !important;
+    color:white !important;
     margin: 10px 15px 10px 0px;
     font-weight: 500;
     font-size: 18px;
@@ -23,11 +23,12 @@
     color: #3c8d2c;
     text-decoration: none;
 }
+
 .btn-navbar {
+    width: auto;
     background-color: #4dac3b;
     border: none;
     border-radius: 5px;
-    width: 100%;
     padding: 10px;
     color: white;
     outline: none;

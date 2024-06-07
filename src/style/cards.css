@@ -21,11 +21,12 @@
   }
   
 .card {
-    background-color: #aaf0ca;
+    background-color: #B2A0A2;
     border: none;
     transition: 0.5s;
     cursor: pointer;
     height: 100%;
+    color: white;
 }
 .card:hover {
   transform: translateY(-20px);

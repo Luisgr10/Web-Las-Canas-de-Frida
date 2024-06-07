@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
-    <nav className="navbar border-bottom border-2 p-0">
+    <nav className="navbar p-0">
       <div className="container-fluid">
         <Link to="/">
           <img src={logoSmall} className="logo" alt="Bootstrap" />
