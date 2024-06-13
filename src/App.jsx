@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home } from './Page/home';
-import { ContactUs } from './Page/contactUs';
-import { Services } from './Page/services';
-import { Blog } from './Page/blog';
-import { NavBar } from './components/navbar';
-import { Footer } from './components/footer';
+import { NavBar } from './Frontend/components/Navbar/navbar';
+import { Home } from './Frontend/Page/home';
+import { ContactUs } from './Frontend/Page/contactUs';
+import { Services } from './Frontend/Page/services';
+import { Blog } from './Frontend/Page/blog';
+import { Footer } from './Frontend/components/Footer/footer';
+
+
 
 function App() {
   

@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #c9d094;
+    color: #434343;
+    padding: 20px;
+    text-align: center;
+  }
+  .creator {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px 0px 10px;
+  }
+  
+.legal {
+  border-top: 2px solid white;
+}
+  .legal a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #434343;
+    margin-right: 15px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .social-media i {
+    margin-top: 10px;
+   font-size: 20px;
+   color: #434343;
+  }
+ 
+  .site-map a {
+    text-decoration: none;
+    color: #434343;
+    margin-right: 15px;
+    font-size: 20px;
+  }
+
+  .contact-info {
+    color: #434343;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
