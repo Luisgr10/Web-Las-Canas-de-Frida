@@ -5,7 +5,7 @@ import { Map } from '../components/Map/map'
 
 export const ContactUs = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid contact-Us">
       <div className="row">
         <div className="contact-01 col-12">
           <img src={peluqueria} className="img-fluid" alt="..." />
