@@ -10,6 +10,8 @@ flask-cors = "*"
 python-dotenv = "*"
 flask-sqlalchemy = "*"
 sqlalchemy = "*"
+flask-admin = "*"
+flask-migrate = "*"
 
 [dev-packages]
 

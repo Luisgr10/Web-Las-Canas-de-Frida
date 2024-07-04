@@ -1,68 +1,34 @@
-from flask import Flask, jsonify, request
+import os
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
+from flask_migrate import Migrate
+from src.Backend.models import db
+from src.Backend.admin import setup_admin
+from src.Backend.routes import app as routes_app
 
+# Crear la instancia de la aplicación Flask
 app = Flask(__name__)
+
+# Configurar la conexión a la base de datos PostgreSQL
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Luis1001@localhost:5432/LasCanasDeFrida'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-db = SQLAlchemy(app)
+# Inicializar SQLAlchemy con la aplicación Flask
+db.init_app(app)
+
+# Inicialización de Flask-Migrate con la aplicación Flask y SQLAlchemy
+migrate = Migrate(app, db)
+
+# Configurar CORS para permitir peticiones cruzadas
 CORS(app)
 
-class BlogPost(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(100), nullable=False)
-    content = db.Column(db.Text, nullable=False)
+# Importar y configurar el administrador de Flask-Admin
+setup_admin(app)
 
-    def to_dict(self):
-        return {
-            'id': self.id,
-            'title': self.title,
-            'content': self.content
-        }
+# Registrar el Blueprint 'app' de las rutas
+app.register_blueprint(routes_app)
 
-@app.route('/', methods=['GET'])
-def test_db_connection():
-    try:
-        # Realiza una consulta simple para verificar la conexión
-        blog_post = BlogPost.query.first()
-        if blog_post:
-            return jsonify({
-                'message': 'Conexión con la base de datos exitosa',
-                'data': blog_post.to_dict()
-            }), 200
-        else:
-            return jsonify({
-                'message': 'No se encontraron datos en la base de datos'
-            }), 404
-    except Exception as e:
-        return jsonify({
-            'message': 'Error al conectar con la base de datos',
-            'error': str(e)
-        }), 500
-
-@app.route('/posts', methods=['POST'])
-def create_post():
-    data = request.get_json()
-    new_post = BlogPost(title=data['title'], content=data['content'])
-
-    try:
-        db.session.add(new_post)
-        db.session.commit()
-        return jsonify({'message': 'Post creado correctamente', 'post': new_post.to_dict()}), 201
-    except Exception as e:
-        db.session.rollback()
-        return jsonify({'message': 'Error al crear el post', 'error': str(e)}), 500
-    finally:
-        db.session.close()
-
-@app.route('/posts', methods=['GET'])
-def get_all_posts():
-    try:
-        posts = BlogPost.query.all()
-        return jsonify([post.to_dict() for post in posts]), 200
-    except Exception as e:
-        return jsonify({'message': 'Error al obtener los posts', 'error': str(e)}), 500
-
+# Ejecutar la aplicación solo si se ejecuta este script directamente
 if __name__ == '__main__':
     app.run(debug=True)
